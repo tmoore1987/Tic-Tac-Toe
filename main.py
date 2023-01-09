@@ -11,10 +11,6 @@ currentPlayer = 'O'
 winner = None
 playing = True
 
-board_keys = []
-
-for key in board:
-    board_keys.append(key)
 
 def printBoard(board):
     print(board[0] + ' | ' + board [1] + ' | ' + board[2])
